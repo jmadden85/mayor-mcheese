@@ -93,8 +93,67 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+html {
+    height:100%;
+}
 
+body {
+    width:100%;
+    height:100%;
+}
 
+.wrapper {
+    height:100%;
+    position:relative;
+}
+
+.sky {
+    background:url('../img/sky.png') 0 0 repeat transparent;
+    height:60%;
+    position:relative;
+    z-index:5;
+}
+
+.ocean {
+    background: url('../img/waves.png') 0 0 repeat transparent;
+    height:50%;
+    position:relative;
+    z-index:10;
+    top:-9%;
+}
+
+.mcCheese {
+    background:url('../img/mccheese.png') 0 0 no-repeat transparent;
+    height:264px;
+    width:180px;
+    position:absolute;
+}
+
+.hamburglar {
+    background:url('../img/hamburglar.png') 0 0 no-repeat transparent;
+    width:150px;
+    height:88px;
+    position:absolute;
+}
+
+.hamburgerBun {
+    background:url('../img/hamburger_bun.png') 0 0 no-repeat transparent;
+    width:150px;
+    height:79px;
+    position:absolute;
+}
+
+.whale {
+    background:url('../img/rightWhale.png') 0 0 no-repeat transparent;
+    width:150px;
+    height:76px;
+    position:absolute;
+}
+
+.active {
+    top:3%;
+    left:43%;
+}
 
 
 
