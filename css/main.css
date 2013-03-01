@@ -134,6 +134,7 @@ body {
     width:150px;
     height:88px;
     position:absolute;
+    display:none;
 }
 
 .hamburgerBun {
@@ -141,6 +142,7 @@ body {
     width:150px;
     height:79px;
     position:absolute;
+    display:none;
 }
 
 .whale {
@@ -148,9 +150,11 @@ body {
     width:150px;
     height:76px;
     position:absolute;
+    display:none;
 }
 
 .active {
+    display:block;
     top:3%;
     left:43%;
 }
